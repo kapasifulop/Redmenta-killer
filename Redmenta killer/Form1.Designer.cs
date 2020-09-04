@@ -113,7 +113,6 @@ namespace Redmenta_killer
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "mainwindow";
             this.Text = "Redmenta Killer";
-            this.TopMost = true;
             this.ResumeLayout(false);
             this.PerformLayout();
 
