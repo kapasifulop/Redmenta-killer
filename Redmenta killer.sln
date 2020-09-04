@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redmenta killer", "Redmenta killer\Redmenta killer.csproj", "{773C4843-7772-44D1-A381-90DDE32D05FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{773C4843-7772-44D1-A381-90DDE32D05FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{773C4843-7772-44D1-A381-90DDE32D05FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{773C4843-7772-44D1-A381-90DDE32D05FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{773C4843-7772-44D1-A381-90DDE32D05FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01219E35-A267-4DA6-B839-353C2AF4BD69}
+	EndGlobalSection
+EndGlobal
