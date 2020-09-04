@@ -70,6 +70,7 @@ namespace Redmenta_killer
             // 
             // randomise
             // 
+            this.randomise.AutoCheck = false;
             this.randomise.AutoSize = true;
             this.randomise.Location = new System.Drawing.Point(119, 400);
             this.randomise.Name = "randomise";
@@ -79,6 +80,7 @@ namespace Redmenta_killer
             this.randomise.Text = "randomise key press delay 1ms-";
             this.randomise.UseVisualStyleBackColor = true;
             this.randomise.CheckedChanged += new System.EventHandler(this.randomise_CheckedChanged);
+            this.randomise.Click += new System.EventHandler(this.checkbox_click);
             // 
             // textBox1
             // 

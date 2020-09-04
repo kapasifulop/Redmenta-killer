@@ -17,6 +17,7 @@ namespace Redmenta_killer
             InitializeComponent();
             randomise.Checked = true;
         }
+        bool chk = true;
 
         private async void button1_Click(object sender, EventArgs e)
         {
@@ -65,6 +66,16 @@ namespace Redmenta_killer
         {
             if (!randomise.Checked) textBox1.Enabled = false;
             else textBox1.Enabled = true;
+        }
+
+        private void checkbox_click(object sender, EventArgs e)
+        {
+            if (randomise.Checked && chk)
+            {
+                randomise.Checked = false;
+                chk = false;
+            }
+            else { randomise.Checked = true; chk = true; }
         }
     }
 }
