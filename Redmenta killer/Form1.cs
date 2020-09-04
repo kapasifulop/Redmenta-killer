@@ -84,7 +84,7 @@ namespace Redmenta_killer
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
-            this.TopMost = checkBox1.Checked;
+            this.TopMost = alw_front.Checked;
         }
     }
 }
