@@ -104,7 +104,7 @@ namespace Redmenta_killer
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(371, 402);
+            this.checkBox1.Location = new System.Drawing.Point(457, 403);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(83, 17);
             this.checkBox1.TabIndex = 6;
