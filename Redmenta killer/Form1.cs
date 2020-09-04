@@ -37,7 +37,11 @@ namespace Redmenta_killer
 
             foreach (char item in datalist)
             {
-                SendKeys.SendWait(item.ToString());
+                if(item.ToString() == "(" || item.ToString() == ")" || item.ToString() == "{" || item.ToString() == "}" || item.ToString() == "[" || item.ToString() == "]")
+                {
+                    SendKeys.SendWait("{" + item.ToString() + "}");
+                }else SendKeys.SendWait(item.ToString());
+
                 if (randomise.Checked)
                 {
                     Random rnd = new Random();
@@ -76,6 +80,11 @@ namespace Redmenta_killer
                 chk = false;
             }
             else { randomise.Checked = true; chk = true; }
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            this.TopMost = checkBox1.Checked;
         }
     }
 }

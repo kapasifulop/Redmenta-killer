@@ -37,6 +37,7 @@ namespace Redmenta_killer
             this.randomise = new System.Windows.Forms.RadioButton();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.cur_delay = new System.Windows.Forms.Label();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // button1
@@ -100,11 +101,23 @@ namespace Redmenta_killer
             this.cur_delay.TabIndex = 5;
             this.cur_delay.Visible = false;
             // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(371, 402);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(83, 17);
+            this.checkBox1.TabIndex = 6;
+            this.checkBox1.Text = "Always front";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            // 
             // mainwindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.cur_delay);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.randomise);
@@ -128,6 +141,7 @@ namespace Redmenta_killer
         private System.Windows.Forms.RadioButton randomise;
         private System.Windows.Forms.TextBox textBox1;
         private Label cur_delay;
+        private CheckBox checkBox1;
     }
 }
 
